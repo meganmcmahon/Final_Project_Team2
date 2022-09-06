@@ -1,4 +1,8 @@
 # Final_Project_Team2
+Team 2's Final Project
+
+healthcare attrition 
+=======
 UT McCombs School of Business - Data Analytics & Visualization Bootcamp
 Team 2's Final Project - Segment One
 
@@ -6,10 +10,11 @@ Team 2's Final Project - Segment One
 ## Presentation
 ### Content
 Team members have drafted their project, including the following:
-- Selected topic 
+- Selected topic attrition in hleathcare
 - Reason why they selected their topic 
 - Description of their source of data 
 - Questions they hope to answer with the data
+
 - Note: The content does not yet need to be in the form of a presentation; text in the README.md works as well.
 
 
@@ -44,4 +49,5 @@ Team members have drafted their project, including the following:
 
 ## Dashboard
 ### Not yet necessary
+
 
