@@ -6,5 +6,8 @@
 2. Splitting Data Text file
  -- work in PGAdmin to import data, split the data, and create the multiple CSV files for future merging
 
-3. Creating merged full dataset
+3. Need to create the little connection diagrams
+
+
+4. Creating merged full dataset
  -- decide data to keep
