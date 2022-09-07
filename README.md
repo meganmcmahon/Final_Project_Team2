@@ -1,6 +1,7 @@
 # Healthcare Attrition
-Final_Project_Team2 
+
 UT McCombs School of Business - Data Analytics & Visualization Bootcamp
+
 Team 2's Final Project - Segment One
 
 - - - - 
