@@ -72,7 +72,22 @@ The features are the variables used to make a prediction (all of the columns exc
 - Sample data that mimics the expected final database structure or schema
 - Draft machine learning model is connected to the provisional database
 
-![Fig 1] (quickdbd-export.png)
+### Data Used:
+Data on healthcare worker attrition was pulled from Kaggle. The Kaggle data contains the following columns of data: EmployeeID, Age, Attrition, BusinessTravel, DailyRate, Department, DistanceFromHome, Education, EducationField, EmployeeCount, EnvironmentSatisfaction, Gender, HourlyRate, JobInvolvement, JobLevel, JobRole, JobSatisfaction, MaritalStatus, MonthlyIncome, MonthlyRate, NumCompaniesWorked, Over18, OverTime, PercentSalaryHike, PerformanceRating, RelationshipSatisfaction, StandardHours, Shift, TotalWorkingYears, TrainingTimesLastYear, WorkLifeBalance, YearsAtCompany, YearsInCurrentRole, YearsSinceLastPromotion, YearsWithCurrManager.
+
+The original Kaggle data is entirely either integers or strings, which may require future cleaning for ML purposes.
+
+Additionally, while sifting through the data, we were able to initially identify potential unnecessary or extra data.
+
+### Table Structure:
+In order to meet the requirement for merging data in a database, the original Kaggle data was split into the individual tables as seen below, with EmployeeID acting as the primary key to reconnect the data.
+
+![Fig 1] (QuickDBD-export.png)
+Please see quickdbd-export.png file for a mockup of the database.
+
+The DatabaseDecisions.xlsx and DatabaseDecisions.txt files outline the plant for splitting up the data. The original Kaggle data was divided up into categories based on theme (i.e. money, employer information, employee information).
+
+Using PGAdmin, the original Kaggle data was added to a database and then divided up into the individual tables using the script outlined in splittingdata.txt. The individual tables were then exported for upload onto GitHub. From this point, the individual tables will act as the starting point for future database use and analysis.
 
 - - - - 
 
