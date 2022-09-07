@@ -6,8 +6,7 @@
 2. Splitting Data Text file
  -- work in PGAdmin to import data, split the data, and create the multiple CSV files for future merging
 
-3. Need to create the little connection diagrams
-
+3. QuickDBD ERD code and images for connecting the data
 
 4. Creating merged full dataset
- -- decide data to keep
+ -- decide what data to keep
