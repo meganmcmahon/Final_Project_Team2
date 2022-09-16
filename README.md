@@ -86,7 +86,7 @@ Presentation includes an ERD with relationships: see QuickDBD-export.png file
 
 ### Dashboard(slides 28-30):
 #### A blueprint for the dashboard is created and includes all of the following:
-Storyboard on a Google Slide(s): The storyboard, displayed in the next slide, outlines our Tableau dashboard, which will visualize the answers to 1. who is most likely to attrit, 2. when are they most likely to attrit, and 3. why they are most likely to attrit.
+Storyboard on a Google Slide(s): The storyboard outlines our Tableau dashboard, which will visualize the answers to 1. who is most likely to attrit, 2. when are they most likely to attrit, and 3. why they are most likely to attrit.
 Description of the tool(s) that will be used to create the final dashboard: The final dashboard will be created using multiple graph types in Tableau. These graphs will help visualize which factors most heavily influence a person’s likelihood of attritting, and the typical profile of a healthcare worker  who is likely to attrit.
 Description of interactive element(s): We will incorporate interactive elements into the graphs by toggling between male and female filters to show the difference in attrition data by gender.
 
