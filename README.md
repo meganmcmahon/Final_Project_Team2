@@ -91,10 +91,6 @@ Description of the tool(s) that will be used to create the final dashboard: The 
 Description of interactive element(s): We will incorporate interactive elements into the graphs by toggling between male and female filters to show the difference in attrition data by gender.
 
 
-Extra Content
 
-
-Accuracy of model - doesn’t have to have as high accuracy as a model used to predict cancer because the stakes are not as high. If we determine incorrectly that someone is likely to attrit and (assuming we want them to remain employed with our company) we invest time in development/high touch connection points or whatever we think will get them to stay, it isn’t time wasted, as long as we have the bandwidth to invest all of that effort into everyone who we think will attrit. 
-Blend of art and science- need to combine the model with the experiences people leaders have with the employees who report to them and take their perspective into account as well. 
 
 
