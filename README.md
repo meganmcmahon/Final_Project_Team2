@@ -29,7 +29,7 @@ This README serves as a high-level overview of the second section of our project
 
 - - - - 
 
-### Project overview (slides 3-5):
+### Project overview (slides 3-6):
 
 #### Selected topic: 
 Predicting employee attrition in the healthcare industry
@@ -43,9 +43,15 @@ The synthetic data we’re using is based on an IBM Watson dataset for attrition
 #### Questions we hope to answer with the data: 
 We hope to understand 1. Which factors most heavily influence a person’s likelihood of attritting? 2. What is the typical profile of a healthcare worker who is likely to attrit?
 
+#### Technologies, languages, tools, and algorithms used throughout the project:
+* Technologies: PostgreSQL, Quick Database Diagrams
+* Languages: SQL, Python
+* Tools: PgAdmin, Tableau, Jupyter Notebook
+* Algorithms: Logistic Regression, Random Forest
+
 - - - - 
 
-### Data Analysis (slides 6-12): 
+### Data Analysis (slides 7-13): 
 
 #### Description of the data exploration + Analysis phase of the project:
 
@@ -61,7 +67,7 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 
 - - - - 
 
-### Machine Learning (slides 13-21):
+### Machine Learning (slides 14-26):
 
 #### The most up-to-date code for our machine learning modes can be found in the ML_Model_Draft2.ipynb file in the “Machine Learning Code” folder.
 
@@ -101,9 +107,25 @@ We chose a supervised logistic regression model because our data already has lab
 * Limitations: 1. Only able to predict discrete functions and 2. Not as capable of determining complex relationships as Neural Networks
 * Benefits: 1. Relatively easy/efficient to implement, interpret + train and 2. Not as prone  to overfitting as other types of models
 
+##### Explanation of changes in model choice and changes that occurred between the Segment 2 and Segment 3 deliverables
+* Moved from using a Logistic Regression model to a RandomForestClassifier model, based on results outlined on slide 23
+
+##### Description of how we have trained the model thus far, and any additional training that will take place
+* Achieved first round results after initial data preprocessing, feature engineering + selection outlined on slides 19-22
+* Next, in ML_Model_Draft3, we will update the Logistic Regression model by increasing the # of estimators (100 >1000) and use Oversampling on our X_train and y_train variables
+
+##### Description of current accuracy score
+
+* See slides 23-24 and ML Code in ML_Model_Draft3.ipynb file in the Machine Learning Code folder in our repo
+
+##### Additionally, the model obviously addresses the question or problem we are solving:
+* The model does an good job of predicting that someone will not attrit, but it is not as accurate at predicting with precision that someone will attrit. 
+* The stakes are not as high as with needing precision for predicting, for example, if someone has cancer or not.
+* We still have options to fine tune the data more in order to achieve an even higher accuracy score: we could bucket out the monthly income into chunks of 500-1000, drop additional unnecessary columns, try undersampling our variables, etc.
+
 - - - -
 
-### Database (slides 22-27):
+### Database (slides 27-32):
 
 #### Database Requirements:
 We’ve created a fully integrated PostgreSQL database + have met the following requirements:
@@ -117,7 +139,7 @@ We’ve created a fully integrated PostgreSQL database + have met the following 
 
 - - - - 
 
-### Dashboard(slides 28-30):
+### Dashboard(slides 33-36):
 
 #### A blueprint for the dashboard is created and includes all of the following:
 
@@ -126,3 +148,9 @@ We’ve created a fully integrated PostgreSQL database + have met the following 
 * Description of the tool(s) that will be used to create the final dashboard: The final dashboard will be created using multiple graph types in Tableau. These graphs will help visualize which factors most heavily influence a person’s likelihood of attritting, and the typical profile of a healthcare worker  who is likely to attrit.
 
 * Description of interactive element(s): We will incorporate interactive elements into the graphs by toggling between male and female filters to show the difference in attrition data by gender.
+
+#### The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes the following:
+
+* Images from the initial analysis: See slides 9-13
+* Data (images or report) from the machine learning task: See slides 22, 24-25
+* At least one interactive element: See Tableau Public Link: XXXXXX
