@@ -9,17 +9,11 @@
 
 This README serves as a high-level overview of the second section of our project. The Google Slides [deck](https://docs.google.com/presentation/d/1tdAcC5qe8PwP9i62jdcyTuN2kitAb_tAN8MCmW_nyGg/edit#slide=id.p) we created is a more in-depth view and demonstrates that we’ve fulfilled all Section 2 project objectives. 
 
-### Communication Protocols
-
-- Created private Slack channel: group2_final_challenge
-- Team members have editor access to group agenda on GoogleDocs
-- Team members will meet via Zoom each Tuesday & Thursday from 7-9 pm CST
-
-### Roles for Section 2:
-- Square: ML model (Molly)
-- Triangle: Database (Sahih)
-- Circle: Analysis + images (Claire)
-- X: Dashboard mockup (Megan)
+### Roles for Section 3:
+- Square: .gitignore + txt files (Megan)
+- Triangle: presentation (Sahih)
+- Circle: dashboard (Claire)
+- X: Code tester (Molly)
 
 - - - - 
 
