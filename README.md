@@ -65,7 +65,7 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 
 5. Descriptive data (count, mean, std, min, 25%, 50%, 75%, max) were calculated for each of the numerical columns. The mean and standard deviations were useful in identifying the common responses and spread of responses for the Education, EnvironmentSatisfaction, JobInvolvement, JobSatisfaction, PerformanceRating, RelationshipSatisfaction, and WorkLifeBalance scaled data columns. Additionally, it was useful in identifying that the EmployeeCount and StandardHours columns do not contribute useful data, and that the DailyRate, HourlyRate, MonthlyIncome, and MonthlyRate columns contain equivalent (and therefore redundant) data.
 
-- - - - - - -
+- - - -
 
 ### Machine Learning (slides 14-26):
 
