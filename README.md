@@ -5,7 +5,7 @@
 
 - - - - 
 
-## Repository Overview:
+## Repository Overview :
 
 This README serves as a high-level overview of the second section of our project. The Google Slides [deck](https://docs.google.com/presentation/d/1tdAcC5qe8PwP9i62jdcyTuN2kitAb_tAN8MCmW_nyGg/edit#slide=id.p) we created is a more in-depth view and demonstrates that we’ve fulfilled all Section 2 project objectives. 
 
@@ -90,6 +90,7 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 After preprocessing the data by dropping unnecessary columns and completing feature engineering, we narrowed down the features to use for our ML model.
 
 To refine our feature selection we will:
+
 1. Run the model
 2. Check the accuracy score
 3. Rank the feature importance
