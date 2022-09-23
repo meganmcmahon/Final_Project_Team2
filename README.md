@@ -154,7 +154,7 @@ We’ve created a fully integrated PostgreSQL database + have met the following 
 
 * Description of the tool(s) that will be used to create the final dashboard: The final dashboard will be created using multiple graph types in Tableau. These graphs will help visualize which factors most heavily influence a person’s likelihood of attritting, and the typical profile of a healthcare worker  who is likely to attrit.
 
-* Description of interactive element(s): We will incorporate interactive elements into the graphs by toggling between male and female filters to show the difference in attrition data by gender.
+* Description of interactive element(s): We will incorporate interactive elements into the graphs by toggling between groups who did attrit and who did not attrit.
 
 ![Dashboard](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Dashboard.png)
 
