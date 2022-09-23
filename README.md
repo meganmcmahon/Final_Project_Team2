@@ -57,13 +57,19 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 
 1. Jupyter Notebook and Pandas were used to look at the DataFrame shape and structure (there are 1,676 rows and 35 columns) and identify if there were any missing values (there were not). Initially, the data looks very clean.
 
+![Data Analysis Initial Shape](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Data%20Analysis%20Initial%20Shape.png)
+
 2. Next, we identified the data type for each column of data. Of the 35 columns, there are 26 columns of integer data and 9 columns of string data.
+
+![Data Analysis Data Types](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Data%20Analysis%20Data%20Types.png)
 
 3. The following integer columns contained integer values to describe categorical data: Education (scale 1-5), EnvironmentSatisfaction (scale 1-4), JobInvolvement (scale 1-4), JobSatisfaction (scale 1-4), PerformanceRating (scale 1-4), RelationshipSatisfaction (scale 1-4), WorkLifeBalance (scale 1-4).
 
 4. Looking at the possible values for the string columns, there are still fairly limited response options– columns with object data types had at most 6 different possible responses.
 
 5. Descriptive data (count, mean, std, min, 25%, 50%, 75%, max) were calculated for each of the numerical columns. The mean and standard deviations were useful in identifying the common responses and spread of responses for the Education, EnvironmentSatisfaction, JobInvolvement, JobSatisfaction, PerformanceRating, RelationshipSatisfaction, and WorkLifeBalance scaled data columns. Additionally, it was useful in identifying that the EmployeeCount and StandardHours columns do not contribute useful data, and that the DailyRate, HourlyRate, MonthlyIncome, and MonthlyRate columns contain equivalent (and therefore redundant) data.
+
+![Data Analysis Scaled Data](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Data%20Analysis%20Scaled%20Data.png)
 
 - - - -
 
