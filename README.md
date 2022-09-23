@@ -120,7 +120,7 @@ We chose a supervised logistic regression model because our data already has lab
 * See slides 23-24 and ML Code in ML_Model_Draft3.ipynb file in the Machine Learning Code folder in our repo
 
 ##### Additionally, the model obviously addresses the question or problem we are solving:
-* The model does an good job of predicting that someone will not attrit, but it is not as accurate at predicting with precision that someone will attrit. 
+* The model does a good job of predicting that someone will not attrit, but it is not as accurate at predicting with precision that someone will attrit. 
 * The stakes are not as high as with needing precision for predicting, for example, if someone has cancer or not.
 * We still have options to fine tune the data more in order to achieve an even higher accuracy score: we could bucket out the monthly income into chunks of 500-1000, drop additional unnecessary columns, try undersampling our variables, etc.
 
