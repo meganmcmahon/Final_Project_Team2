@@ -156,6 +156,8 @@ We’ve created a fully integrated PostgreSQL database + have met the following 
 
 * Description of interactive element(s): We will incorporate interactive elements into the graphs by toggling between male and female filters to show the difference in attrition data by gender.
 
+![Dashboard](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Dashboard.png)
+
 #### The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes the following:
 
 * Images from the initial analysis: See slides 9-13
