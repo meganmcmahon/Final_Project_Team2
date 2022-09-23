@@ -57,13 +57,19 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 
 1. Jupyter Notebook and Pandas were used to look at the DataFrame shape and structure (there are 1,676 rows and 35 columns) and identify if there were any missing values (there were not). Initially, the data looks very clean.
 
+![Data Analysis Initial Shape](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Data%20Analysis%20Initial%20Shape.png)
+
 2. Next, we identified the data type for each column of data. Of the 35 columns, there are 26 columns of integer data and 9 columns of string data.
+
+![Data Analysis Data Types](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Data%20Analysis%20Data%20Types.png)
 
 3. The following integer columns contained integer values to describe categorical data: Education (scale 1-5), EnvironmentSatisfaction (scale 1-4), JobInvolvement (scale 1-4), JobSatisfaction (scale 1-4), PerformanceRating (scale 1-4), RelationshipSatisfaction (scale 1-4), WorkLifeBalance (scale 1-4).
 
 4. Looking at the possible values for the string columns, there are still fairly limited response options– columns with object data types had at most 6 different possible responses.
 
 5. Descriptive data (count, mean, std, min, 25%, 50%, 75%, max) were calculated for each of the numerical columns. The mean and standard deviations were useful in identifying the common responses and spread of responses for the Education, EnvironmentSatisfaction, JobInvolvement, JobSatisfaction, PerformanceRating, RelationshipSatisfaction, and WorkLifeBalance scaled data columns. Additionally, it was useful in identifying that the EmployeeCount and StandardHours columns do not contribute useful data, and that the DailyRate, HourlyRate, MonthlyIncome, and MonthlyRate columns contain equivalent (and therefore redundant) data.
+
+![Data Analysis Scaled Data](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Data%20Analysis%20Scaled%20Data.png)
 
 - - - -
 
@@ -120,7 +126,7 @@ We chose a supervised logistic regression model because our data already has lab
 * See slides 23-24 and ML Code in ML_Model_Draft3.ipynb file in the Machine Learning Code folder in our repo
 
 ##### Additionally, the model obviously addresses the question or problem we are solving:
-* The model does an good job of predicting that someone will not attrit, but it is not as accurate at predicting with precision that someone will attrit. 
+* The model does a good job of predicting that someone will not attrit, but it is not as accurate at predicting with precision that someone will attrit. 
 * The stakes are not as high as with needing precision for predicting, for example, if someone has cancer or not.
 * We still have options to fine tune the data more in order to achieve an even higher accuracy score: we could bucket out the monthly income into chunks of 500-1000, drop additional unnecessary columns, try undersampling our variables, etc.
 
@@ -154,4 +160,4 @@ We’ve created a fully integrated PostgreSQL database + have met the following 
 
 * Images from the initial analysis: See slides 9-13
 * Data (images or report) from the machine learning task: See slides 22, 24-25
-* At least one interactive element: See Tableau Public Link: XXXXXX
+* At least one interactive element: See Tableau Public Link: https://public.tableau.com/app/profile/megan.mcmahon/viz/Final_Project_Dashboard_16626658098950/ProjectDashboard?publish=yes
