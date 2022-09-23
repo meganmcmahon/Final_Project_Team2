@@ -154,4 +154,4 @@ We’ve created a fully integrated PostgreSQL database + have met the following 
 
 * Images from the initial analysis: See slides 9-13
 * Data (images or report) from the machine learning task: See slides 22, 24-25
-* At least one interactive element: See Tableau Public Link: XXXXXX
+* At least one interactive element: See Tableau Public Link: https://public.tableau.com/app/profile/megan.mcmahon/viz/Final_Project_Dashboard_16626658098950/ProjectDashboard?publish=yes
