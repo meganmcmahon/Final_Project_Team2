@@ -5,7 +5,7 @@
 
 - - - - 
 
-## Repository Overview:
+## Repository Overview :
 
 This README serves as a high-level overview of the second section of our project. The Google Slides [deck](https://docs.google.com/presentation/d/1tdAcC5qe8PwP9i62jdcyTuN2kitAb_tAN8MCmW_nyGg/edit#slide=id.p) we created is a more in-depth view and demonstrates that we’ve fulfilled all Section 2 project objectives. 
 
@@ -65,7 +65,7 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 
 5. Descriptive data (count, mean, std, min, 25%, 50%, 75%, max) were calculated for each of the numerical columns. The mean and standard deviations were useful in identifying the common responses and spread of responses for the Education, EnvironmentSatisfaction, JobInvolvement, JobSatisfaction, PerformanceRating, RelationshipSatisfaction, and WorkLifeBalance scaled data columns. Additionally, it was useful in identifying that the EmployeeCount and StandardHours columns do not contribute useful data, and that the DailyRate, HourlyRate, MonthlyIncome, and MonthlyRate columns contain equivalent (and therefore redundant) data.
 
-- - - - 
+- - - -
 
 ### Machine Learning (slides 14-26):
 
@@ -76,7 +76,7 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 1. Ran df.describe() to review the distribution of the data in each column
 2. Ran df.isnull().sum() to double check for any null values
 3. Ran df.dtypes to see what types of data are in each column
-4. Ran df.drop() to drop any unnecessary columns: [EmployeeID, Over18,  EmployeeCount, StandardHours,  DailyRate,  HourlyRate,  MonthlyRate]
+4. Ran df.drop() to drop any unnecessary columns: [EmployeeID, Over18,  EmployeeCount, StandardHours,  DailyRate, HourlyRate,  MonthlyRate]
 
 ##### Description of preliminary feature engineering:
 1. Binary encoding using Pandas
@@ -90,6 +90,7 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 After preprocessing the data by dropping unnecessary columns and completing feature engineering, we narrowed down the features to use for our ML model.
 
 To refine our feature selection we will:
+
 1. Run the model
 2. Check the accuracy score
 3. Rank the feature importance
