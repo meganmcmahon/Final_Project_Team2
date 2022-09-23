@@ -5,7 +5,7 @@
 
 - - - - 
 
-## Repository Overview:
+## Repository Overview :
 
 This README serves as a high-level overview of the second section of our project. The Google Slides [deck](https://docs.google.com/presentation/d/1tdAcC5qe8PwP9i62jdcyTuN2kitAb_tAN8MCmW_nyGg/edit#slide=id.p) we created is a more in-depth view and demonstrates that we’ve fulfilled all Section 2 project objectives. 
 
@@ -57,7 +57,11 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 
 1. Jupyter Notebook and Pandas were used to look at the DataFrame shape and structure (there are 1,676 rows and 35 columns) and identify if there were any missing values (there were not). Initially, the data looks very clean.
 
+![Data Analysis Initial Shape](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Data%20Analysis%20Initial%20Shape.png)
+
 2. Next, we identified the data type for each column of data. Of the 35 columns, there are 26 columns of integer data and 9 columns of string data.
+
+![Data Analysis Data Types](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Data%20Analysis%20Data%20Types.png)
 
 3. The following integer columns contained integer values to describe categorical data: Education (scale 1-5), EnvironmentSatisfaction (scale 1-4), JobInvolvement (scale 1-4), JobSatisfaction (scale 1-4), PerformanceRating (scale 1-4), RelationshipSatisfaction (scale 1-4), WorkLifeBalance (scale 1-4).
 
@@ -65,7 +69,9 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 
 5. Descriptive data (count, mean, std, min, 25%, 50%, 75%, max) were calculated for each of the numerical columns. The mean and standard deviations were useful in identifying the common responses and spread of responses for the Education, EnvironmentSatisfaction, JobInvolvement, JobSatisfaction, PerformanceRating, RelationshipSatisfaction, and WorkLifeBalance scaled data columns. Additionally, it was useful in identifying that the EmployeeCount and StandardHours columns do not contribute useful data, and that the DailyRate, HourlyRate, MonthlyIncome, and MonthlyRate columns contain equivalent (and therefore redundant) data.
 
-- - - - 
+![Data Analysis Scaled Data](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Data%20Analysis%20Scaled%20Data.png)
+
+- - - -
 
 ### Machine Learning (slides 14-26):
 
@@ -76,7 +82,7 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 1. Ran df.describe() to review the distribution of the data in each column
 2. Ran df.isnull().sum() to double check for any null values
 3. Ran df.dtypes to see what types of data are in each column
-4. Ran df.drop() to drop any unnecessary columns: [EmployeeID, Over18,  EmployeeCount, StandardHours,  DailyRate,  HourlyRate,  MonthlyRate]
+4. Ran df.drop() to drop any unnecessary columns: [EmployeeID, Over18,  EmployeeCount, StandardHours,  DailyRate, HourlyRate,  MonthlyRate]
 
 ##### Description of preliminary feature engineering:
 1. Binary encoding using Pandas
@@ -90,6 +96,7 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 After preprocessing the data by dropping unnecessary columns and completing feature engineering, we narrowed down the features to use for our ML model.
 
 To refine our feature selection we will:
+
 1. Run the model
 2. Check the accuracy score
 3. Rank the feature importance
@@ -119,7 +126,7 @@ We chose a supervised logistic regression model because our data already has lab
 * See slides 23-24 and ML Code in ML_Model_Draft3.ipynb file in the Machine Learning Code folder in our repo
 
 ##### Additionally, the model obviously addresses the question or problem we are solving:
-* The model does an good job of predicting that someone will not attrit, but it is not as accurate at predicting with precision that someone will attrit. 
+* The model does a good job of predicting that someone will not attrit, but it is not as accurate at predicting with precision that someone will attrit. 
 * The stakes are not as high as with needing precision for predicting, for example, if someone has cancer or not.
 * We still have options to fine tune the data more in order to achieve an even higher accuracy score: we could bucket out the monthly income into chunks of 500-1000, drop additional unnecessary columns, try undersampling our variables, etc.
 
@@ -149,8 +156,13 @@ We’ve created a fully integrated PostgreSQL database + have met the following 
 
 * Description of interactive element(s): We will incorporate interactive elements into the graphs by toggling between male and female filters to show the difference in attrition data by gender.
 
+![Dashboard](https://github.com/meganmcmahon/Final_Project_Team2/blob/main/Images/Dashboard.png)
+
 #### The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes the following:
 
 * Images from the initial analysis: See slides 9-13
 * Data (images or report) from the machine learning task: See slides 22, 24-25
-* At least one interactive element: See Tableau Public Link: XXXXXX
+* At least one interactive element: all graphs can be filtered by attrition. See Tableau Public Link: https://public.tableau.com/app/profile/megan.mcmahon/viz/Final_Project_Dashboard_16626658098950/ProjectDashboard?publish=yes
+
+![Screen Shot 2022-09-22 at 7 00 09 PM](https://user-images.githubusercontent.com/103215686/191875361-146b4be9-6bfc-4ed3-8550-ac423c14c890.png)
+
