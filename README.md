@@ -160,4 +160,6 @@ We’ve created a fully integrated PostgreSQL database + have met the following 
 
 * Images from the initial analysis: See slides 9-13
 * Data (images or report) from the machine learning task: See slides 22, 24-25
-* At least one interactive element: See Tableau Public Link: https://public.tableau.com/app/profile/megan.mcmahon/viz/Final_Project_Dashboard_16626658098950/ProjectDashboard?publish=yes
+* At least one interactive element: all graphs can be filtered by attrition. See Tableau Public Link: https://public.tableau.com/app/profile/megan.mcmahon/viz/Final_Project_Dashboard_16626658098950/ProjectDashboard?publish=yes
+![Screen Shot 2022-09-22 at 7 00 09 PM](https://user-images.githubusercontent.com/103215686/191875361-146b4be9-6bfc-4ed3-8550-ac423c14c890.png)
+
