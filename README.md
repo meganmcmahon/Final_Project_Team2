@@ -39,7 +39,7 @@ The synthetic data we’re using is based on an IBM Watson dataset for attrition
 #### Questions we hope to answer with the data: 
 We hope to understand 1. Which factors most heavily influence a person’s likelihood of attritting? 2. What is the typical profile of a healthcare worker who is likely to attrit?
 
-#### Technologies, languages, tools, and algorithms used throughout the project:
+#### Technologies, languages, tools, and algorithms used throughout the project :
 * Technologies: PostgreSQL, Quick Database Diagrams
 * Languages: SQL, Python
 * Tools: PgAdmin, Tableau, Jupyter Notebook
