@@ -1,35 +1,31 @@
 # Healthcare Attrition
 
 #### UT McCombs School of Business: Data Analytics & Visualization Bootcamp 
-#### Team 2's Final Project - Segment Two
+#### Team 2's Final Project - Segment Three
 
 - - - - 
 
 ## Repository Overview :
 
-This README serves as a high-level overview of the second section of our project. The Google Slides [deck](https://docs.google.com/presentation/d/1tdAcC5qe8PwP9i62jdcyTuN2kitAb_tAN8MCmW_nyGg/edit#slide=id.p) we created is a more in-depth view and demonstrates that we’ve fulfilled all Section 2 project objectives. 
+This README serves as a high-level overview of our project. Our FINAL Presentation deck is saved as a PDF file in the "Power Point Decks" folder in this repo and can also be reviewed through the following Google Slides link, which also shows the speaker notes for our presentation.
 
-### Roles for Section 3:
-- Square: .gitignore + txt files (Megan)
-- Triangle: presentation (Sahih)
-- Circle: dashboard (Claire)
-- X: Code tester (Molly)
+#### [Team 2 FINAL Project Presentation](https://docs.google.com/presentation/d/1hwFlfPzdQL078yApkk1e9whpe-HaVYWZqgzrIQJpIlo/edit#slide=id.p)
 
 - - - - 
 
 ## Presentation Deck:
 
-#### The work-in-progress presentation can be found in the following Google Slides deck: [Team 2 Project Presentation](https://docs.google.com/presentation/d/1tdAcC5qe8PwP9i62jdcyTuN2kitAb_tAN8MCmW_nyGg/edit#slide=id.p)
-- Presentation Outline:
+The more comprehensive presentation edck, which demonstrates that we’ve fulfilled all Section 1-4 project objectives can be found in the following Google Slides deck: [Team 2 Project Presentation](https://docs.google.com/presentation/d/1tdAcC5qe8PwP9i62jdcyTuN2kitAb_tAN8MCmW_nyGg/edit#slide=id.p)
 - Project Overview
 - Data Analysis
 - Machine Learning
 - Database
 - Dashboard
+- Project Conclusion
 
 - - - - 
 
-### Project overview (slides 3-6):
+### Project Overview (slides 3-6):
 
 #### Selected topic: 
 Predicting employee attrition in the healthcare industry
@@ -163,3 +159,17 @@ We’ve created a fully integrated PostgreSQL database + have met the following 
 * Images from the initial analysis: See slides 9-13
 * Data (images or report) from the machine learning task: See slides 22, 24-25
 * At least one interactive element: all graphs can be filtered by attrition. See Tableau Public Link: https://public.tableau.com/app/profile/megan.mcmahon/viz/Final_Project_Dashboard_16626658098950/ProjectDashboard?publish=yes
+
+- - - - 
+
+### Project Conclusion(slides 37-39):
+
+#### Analysis Results:
+* Age, if someone works overtime or not, total working years and monthly income were the variables that contributed most to the model
+
+#### Recommendations for future analysis:
+* We could bucket out the monthly income into chunks of 500-1000, drop additional unnecessary columns, try undersampling our variables, etc., in order to increase the model’s accuracy score
+
+#### What we would have done differently: 
+1. Explore other employee/attrition data sets and test them against the model
+2. Conduct more statistical analysis on the data in order to further understand the distribution + the most relevant/dependable variables for the ML model
