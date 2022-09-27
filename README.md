@@ -13,7 +13,7 @@ This README serves as a high-level overview of our project. Our FINAL Presentati
 
 - - - - 
 
-## Presentation Deck:
+## Presentation Deck :
 
 The more comprehensive presentation deck, which demonstrates that we’ve fulfilled all Section 1-4 project objectives can be found in the following Google Slides deck: [Team 2 Project Presentation](https://docs.google.com/presentation/d/1tdAcC5qe8PwP9i62jdcyTuN2kitAb_tAN8MCmW_nyGg/edit#slide=id.p)
 - Project Overview
