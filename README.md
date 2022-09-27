@@ -73,7 +73,7 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 
 #### The most up-to-date code for our machine learning modes can be found in the ML_Model_Draft2.ipynb file in the “Machine Learning Code” folder.
 
-##### Description of preliminary data preprocessing after loading in the data:
+##### Description of preliminary data preprocessing after loading in the data :
 
 1. Ran df.describe() to review the distribution of the data in each column
 2. Ran df.isnull().sum() to double check for any null values
