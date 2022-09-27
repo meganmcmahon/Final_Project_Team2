@@ -91,7 +91,7 @@ We hope to understand 1. Which factors most heavily influence a person’s likel
 
 After preprocessing the data by dropping unnecessary columns and completing feature engineering, we narrowed down the features to use for our ML model.
 
-To refine our feature selection we will:
+To refine our feature selection we will :
 
 1. Run the model
 2. Check the accuracy score
